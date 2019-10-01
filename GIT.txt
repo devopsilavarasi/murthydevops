@@ -5,20 +5,21 @@ Git COMMANDS:
 ------------------------------------------------------------------------------------------------------------------------
 git config --global user.name "username"
 git config --global user.email "email@example.com"
-git config --list
-git clone
+
 git --help
 git --version
+git init
 git add filename
 git add .
 git commit -m "any message"
-git commit -a -m "anymessage"
-git commit --amend -m "message related commit"
+// git commit -a -m "anymessage"
+//git commit --amend -m "message related commit"
 git push
 git pull
-git log
-git status
-git init
+git log  // to check the commit details
+git status // to check the file status
+//git config --list
+git clone 
 git remote -v
 git remote add anyname url_of_empty_repository
 git push origin master
